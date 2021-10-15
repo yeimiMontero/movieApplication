@@ -1,0 +1,12 @@
+server:
+  port: 3030
+spring:
+  application:
+    name: movies-service
+  datasource:
+    username: root
+    password: MonteroAlan
+    url: jdbc:mysql://localhost:3306/movies
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
